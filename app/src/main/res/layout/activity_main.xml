@@ -21,12 +21,8 @@
             android:textSize="20sp" />
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:paddingBottom="16dp"
-            android:paddingTop="16dp"
-            android:gravity="left">
+            android:gravity="left"
+            style="@style/LineStyle">
 
             <ImageView
                 android:src="@drawable/image1"
@@ -39,12 +35,8 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:paddingBottom="16dp"
-            android:paddingTop="16dp"
-            android:gravity="right">
+            android:gravity="right"
+            style="@style/LineStyle">
 
             <TextView
                 android:text="some text"
