@@ -17,7 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:gravity="center"
-            android:text="How to cool your beer"
+            android:text="How to cool your drink"
             android:textSize="20sp" />
 
         <LinearLayout
