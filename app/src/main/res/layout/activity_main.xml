@@ -47,5 +47,47 @@
                 style="@style/ImageStyle"/>
 
         </LinearLayout>
+
+        <LinearLayout
+            android:gravity="left"
+            style="@style/LineStyle">
+
+            <ImageView
+                android:src="@drawable/image3"
+                style="@style/ImageStyle"/>
+
+            <TextView
+                android:text="some text"
+                style="@style/TextStyle"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="right"
+            style="@style/LineStyle">
+
+            <TextView
+                android:text="some text"
+                style="@style/TextStyle"/>
+
+            <ImageView
+                android:src="@drawable/image4"
+                style="@style/ImageStyle"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="left"
+            style="@style/LineStyle">
+
+            <ImageView
+                android:src="@drawable/image5"
+                style="@style/ImageStyle"/>
+
+            <TextView
+                android:text="some text"
+                style="@style/TextStyle"/>
+
+        </LinearLayout>
     </LinearLayout>
 </ScrollView>
