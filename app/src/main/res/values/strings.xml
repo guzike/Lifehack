@@ -3,5 +3,14 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_main2">Quiz</string>
+
+    <string name="title_drink">How to cool your drink</string>
+    <string name="text1">some text</string>
+    <string name="text2">some text</string>
+    <string name="text3">some text</string>
+    <string name="text4">some text</string>
+    <string name="text5">some text</string>
+    <string name="sb_cont_to_quiz">Continue to quiz -></string>
+
 </resources>

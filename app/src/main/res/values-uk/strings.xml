@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lifehack</string>
+
+    <string name="hello_world">Привіт Світ!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">Вікторина</string>
+
+    <string name="title_drink">Як охолодити напій</string>
+    <string name="text1">Загорни у вологий рушник ...</string>
+    <string name="text2">У поході використовуй\n\"шкарпетковий\" варіант</string>
+    <string name="text3">Щоб здивувати друзів</string>
+    <string name="text4">Багато напоів?</string>
+    <string name="text5">Гуляємо ...</string>
+    <string name="sb_cont_to_quiz">Перейти до вікторини</string>
+
+</resources>

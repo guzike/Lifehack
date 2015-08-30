@@ -17,7 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:gravity="center"
-            android:text="How to cool your drink"
+            android:text="@string/title_drink"
             android:textSize="20sp" />
 
         <LinearLayout
@@ -30,7 +30,7 @@
 
             <TextView
                 style="@style/TextStyle"
-                android:text="some text" />
+                android:text="@string/text1" />
 
         </LinearLayout>
 
@@ -40,7 +40,7 @@
 
             <TextView
                 style="@style/TextStyle"
-                android:text="some text" />
+                android:text="@string/text2" />
 
             <ImageView
                 style="@style/ImageStyle"
@@ -58,7 +58,7 @@
 
             <TextView
                 style="@style/TextStyle"
-                android:text="some text" />
+                android:text="@string/text3" />
 
         </LinearLayout>
 
@@ -68,7 +68,7 @@
 
             <TextView
                 style="@style/TextStyle"
-                android:text="some text" />
+                android:text="@string/text4" />
 
             <ImageView
                 style="@style/ImageStyle"
@@ -86,7 +86,7 @@
 
             <TextView
                 style="@style/TextStyle"
-                android:text="some text" />
+                android:text="@string/text5" />
 
         </LinearLayout>
 
@@ -96,7 +96,8 @@
             android:layout_gravity="center"
             android:layout_margin="36dp"
             android:onClick="sbContToQuiz"
-            android:text="Continue to quiz" />
+            android:text="@string/sb_cont_to_quiz"
+            android:textColor="#FFFFFF"/>
 
     </LinearLayout>
 </ScrollView>
