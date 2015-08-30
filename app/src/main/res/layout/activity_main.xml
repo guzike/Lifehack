@@ -15,10 +15,11 @@
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="48dp"
+            android:layout_height="56dp"
             android:gravity="center"
             android:text="@string/title_drink"
-            android:textSize="20sp" />
+            android:textSize="24sp"
+            android:textStyle="bold"/>
 
         <LinearLayout
             style="@style/LineStyle"
@@ -28,9 +29,19 @@
                 style="@style/ImageStyle"
                 android:src="@drawable/image1" />
 
-            <TextView
-                style="@style/TextStyle"
-                android:text="@string/text1" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/TitleTextStyle"
+                    android:text="@string/title_text1" />
+
+                <TextView
+                    style="@style/TextStyle"
+                    android:text="@string/text1" />
+            </LinearLayout>
 
         </LinearLayout>
 
@@ -38,9 +49,21 @@
             style="@style/LineStyle"
             android:gravity="right">
 
-            <TextView
-                style="@style/TextStyle"
-                android:text="@string/text2" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/TitleTextStyle"
+                    android:text="@string/title_text2"
+                    android:gravity="right"/>
+
+                <TextView
+                    style="@style/TextStyle"
+                    android:text="@string/text2"
+                    android:gravity="right"/>
+            </LinearLayout>
 
             <ImageView
                 style="@style/ImageStyle"
@@ -56,9 +79,19 @@
                 style="@style/ImageStyle"
                 android:src="@drawable/image3" />
 
-            <TextView
-                style="@style/TextStyle"
-                android:text="@string/text3" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/TitleTextStyle"
+                    android:text="@string/title_text3" />
+
+                <TextView
+                    style="@style/TextStyle"
+                    android:text="@string/text3" />
+            </LinearLayout>
 
         </LinearLayout>
 
@@ -66,9 +99,21 @@
             style="@style/LineStyle"
             android:gravity="right">
 
-            <TextView
-                style="@style/TextStyle"
-                android:text="@string/text4" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/TitleTextStyle"
+                    android:text="@string/title_text4"
+                    android:gravity="right"/>
+
+                <TextView
+                    style="@style/TextStyle"
+                    android:text="@string/text4"
+                    android:gravity="right"/>
+            </LinearLayout>
 
             <ImageView
                 style="@style/ImageStyle"
@@ -84,9 +129,19 @@
                 style="@style/ImageStyle"
                 android:src="@drawable/image5" />
 
-            <TextView
-                style="@style/TextStyle"
-                android:text="@string/text5" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/TitleTextStyle"
+                    android:text="@string/title_text5" />
+
+                <TextView
+                    style="@style/TextStyle"
+                    android:text="@string/text5" />
+            </LinearLayout>
 
         </LinearLayout>
 
@@ -97,7 +152,7 @@
             android:layout_margin="36dp"
             android:onClick="sbContToQuiz"
             android:text="@string/sb_cont_to_quiz"
-            android:textColor="#FFFFFF"/>
+            android:textColor="#FFFFFF" />
 
     </LinearLayout>
 </ScrollView>

@@ -7,11 +7,16 @@
     <string name="title_activity_main2">Вікторина</string>
 
     <string name="title_drink">Як охолодити напій</string>
-    <string name="text1">Загорни у вологий рушник ...</string>
-    <string name="text2">У поході використовуй\n\"шкарпетковий\" варіант</string>
-    <string name="text3">Щоб здивувати друзів</string>
-    <string name="text4">Багато напоів?</string>
-    <string name="text5">Гуляємо ...</string>
+    <string name="title_text1">Загорни у вологий рушник ...</string>
+    <string name="title_text2">У поході використовуй\n\"шкарпетковий\" варіант</string>
+    <string name="title_text3">Щоб здивувати друзів</string>
+    <string name="title_text4">Багато напоів?</string>
+    <string name="title_text5">Гуляємо ...</string>
+    <string name="text1">some text</string>
+    <string name="text2">some text</string>
+    <string name="text3">some text</string>
+    <string name="text4">some text</string>
+    <string name="text5">some text</string>
     <string name="sb_cont_to_quiz">Перейти до вікторини</string>
 
 </resources>
