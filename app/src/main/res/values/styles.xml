@@ -6,8 +6,8 @@
     </style>
     
     <style name="ImageStyle">
-        <item name="android:layout_width">100dp</item>
-        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">120dp</item>
         <item name="android:scaleType">centerInside</item>
     </style>
     

@@ -21,73 +21,81 @@
             android:textSize="20sp" />
 
         <LinearLayout
-            android:gravity="left"
-            style="@style/LineStyle">
+            style="@style/LineStyle"
+            android:gravity="left">
 
             <ImageView
-                android:src="@drawable/image1"
-                style="@style/ImageStyle"/>
+                style="@style/ImageStyle"
+                android:src="@drawable/image1" />
 
             <TextView
-                android:text="some text"
-                style="@style/TextStyle"/>
+                style="@style/TextStyle"
+                android:text="some text" />
 
         </LinearLayout>
 
         <LinearLayout
-            android:gravity="right"
-            style="@style/LineStyle">
+            style="@style/LineStyle"
+            android:gravity="right">
 
             <TextView
-                android:text="some text"
-                style="@style/TextStyle"/>
+                style="@style/TextStyle"
+                android:text="some text" />
 
             <ImageView
-                android:src="@drawable/image2"
-                style="@style/ImageStyle"/>
+                style="@style/ImageStyle"
+                android:src="@drawable/image2" />
 
         </LinearLayout>
 
         <LinearLayout
-            android:gravity="left"
-            style="@style/LineStyle">
+            style="@style/LineStyle"
+            android:gravity="left">
 
             <ImageView
-                android:src="@drawable/image3"
-                style="@style/ImageStyle"/>
+                style="@style/ImageStyle"
+                android:src="@drawable/image3" />
 
             <TextView
-                android:text="some text"
-                style="@style/TextStyle"/>
+                style="@style/TextStyle"
+                android:text="some text" />
 
         </LinearLayout>
 
         <LinearLayout
-            android:gravity="right"
-            style="@style/LineStyle">
+            style="@style/LineStyle"
+            android:gravity="right">
 
             <TextView
-                android:text="some text"
-                style="@style/TextStyle"/>
+                style="@style/TextStyle"
+                android:text="some text" />
 
             <ImageView
-                android:src="@drawable/image4"
-                style="@style/ImageStyle"/>
+                style="@style/ImageStyle"
+                android:src="@drawable/image4" />
 
         </LinearLayout>
 
         <LinearLayout
-            android:gravity="left"
-            style="@style/LineStyle">
+            style="@style/LineStyle"
+            android:gravity="left">
 
             <ImageView
-                android:src="@drawable/image5"
-                style="@style/ImageStyle"/>
+                style="@style/ImageStyle"
+                android:src="@drawable/image5" />
 
             <TextView
-                android:text="some text"
-                style="@style/TextStyle"/>
+                style="@style/TextStyle"
+                android:text="some text" />
 
         </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="36dp"
+            android:text="Continue to quiz" />
+
     </LinearLayout>
 </ScrollView>
