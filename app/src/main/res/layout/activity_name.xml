@@ -23,7 +23,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="36dp"
         android:onClick="sbContToMain"
-        android:text="@string/sb_cont_to_main"
+        android:text="@string/sb_continue"
         android:textColor="#FFFFFF" />
 
 </LinearLayout>

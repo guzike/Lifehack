@@ -8,6 +8,7 @@
     <string name="title_activity_quiz">Quiz</string>
     <string name="title_activity_splash">Welcome to Lifehack</string>
     <string name="title_activity_name">Welcome to Lifehack</string>
+    <string name="title_activity_summary">Summary</string>
 
     <string name="title_drink">How to cool your drink</string>
     <string name="title_text1">Wrap in a wet towel...</string>
@@ -22,9 +23,16 @@
     <string name="text5">Do you see extinguisher? You should blow on your drink - the bottle will be icy in two minutes, and then you wash the floor, walls, bottle. You will have problems with management and firefighters... But we are having fun :)</string>
 
     <string name="sb_cont_to_quiz">Continue to quiz</string>
-    <string name="sb_cont_to_main">Continue</string>
+    <string name="sb_continue">Continue</string>
 
     <string name="name_hint">Enter your name</string>
 
+    <string name="title_quest1">Question №1</string>
+    <string name="title_quest2">Question №2</string>
+    <string name="title_quest3">Question №3</string>
+
+    <string name="quest1">Question text</string>
+    <string name="quest2">Question text</string>
+    <string name="quest3">Question text</string>
 
 </resources>

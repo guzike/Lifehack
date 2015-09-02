@@ -8,6 +8,7 @@
     <string name="title_activity_quiz">Викторина</string>
     <string name="title_activity_splash">Lifehack</string>
     <string name="title_activity_name">Lifehack</string>
+    <string name="title_activity_summary">Резюме</string>
 
     <string name="title_drink">Как охладить напиток</string>
     <string name="title_text1">Заверни во влажное полотенце...</string>
@@ -22,8 +23,16 @@
     <string name="text5">Видишь огнетушитель? Полей из него напиток - он за две минуты будет ледяным, а тебе потом отмывать пол, стены, бутылку. Ещё и с начальством и пожарными проблемы... Но мы же гуляем :)</string>
 
     <string name="sb_cont_to_quiz">Перейти к викторине</string>
-    <string name="sb_cont_to_main">Далее</string>
+    <string name="sb_continue">Далее</string>
 
     <string name="name_hint">Введите имя</string>
+
+    <string name="title_quest1">Вопрос №1</string>
+    <string name="title_quest2">Вопрос №2</string>
+    <string name="title_quest3">Вопрос №3</string>
+
+    <string name="quest1">текст текст</string>
+    <string name="quest2">текст текст</string>
+    <string name="quest3">текст текст</string>
 
 </resources>
