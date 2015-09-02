@@ -4,7 +4,7 @@
 
     <string name="hello_world">Привет Мир!</string>
     <string name="action_settings">Настройки</string>
-    <string name="title_activity_main2">Викторина</string>
+    <string name="title_activity_quiz">Викторина</string>
 
     <string name="title_drink">Как охладить напиток</string>
     <string name="title_text1">Заверни во влажное полотенце...</string>

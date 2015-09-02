@@ -31,8 +31,8 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_toRightOf="@id/image1"
                 android:layout_toEndOf="@id/image1"
+                android:layout_toRightOf="@id/image1"
                 android:orientation="vertical">
 
                 <TextView
@@ -51,8 +51,8 @@
             <ImageView
                 android:id="@+id/image2"
                 style="@style/ImageStyle"
-                android:layout_alignParentRight="true"
                 android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
                 android:src="@drawable/image2" />
 
             <LinearLayout
@@ -85,8 +85,8 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_toRightOf="@id/image3"
                 android:layout_toEndOf="@id/image3"
+                android:layout_toRightOf="@id/image3"
                 android:orientation="vertical">
 
                 <TextView
@@ -105,8 +105,8 @@
             <ImageView
                 android:id="@+id/image4"
                 style="@style/ImageStyle"
-                android:layout_alignParentRight="true"
                 android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
                 android:src="@drawable/image4" />
 
             <LinearLayout
@@ -139,8 +139,8 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_toRightOf="@id/image5"
                 android:layout_toEndOf="@id/image5"
+                android:layout_toRightOf="@id/image5"
                 android:orientation="vertical">
 
                 <TextView
