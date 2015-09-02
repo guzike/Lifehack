@@ -19,5 +19,6 @@
     <string name="text5">Do you see extinguisher? You should blow on your drink - the bottle will be icy in two minutes, and then you wash the floor, walls, bottle. You will have problems with management and firefighters... But we are having fun :)</string>
     <string name="sb_cont_to_quiz">Continue to quiz</string>
     <string name="title_activity_splash">Welcome to Lifehack</string>
+    <string name="title_activity_name">NameActivity</string>
 
 </resources>
