@@ -109,7 +109,7 @@
             android:onClick="sbContToSum"
             android:text="@string/sb_continue"
 
-            style="@style/ButtonStyle"/>
+            style="@style/Widget.AppCompat.Button.ButtonStyle"/>
 
     </LinearLayout>
 </ScrollView>
