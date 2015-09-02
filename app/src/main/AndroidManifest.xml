@@ -21,9 +21,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".NameActivity"
+            android:label="@string/title_activity_name" >
+        </activity>
+
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name" >
+            android:label="@string/app_name"
+            android:parentActivityName=".SplashActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.android.lifehack.SplashActivity" />>
         </activity>
         <activity
             android:name=".QuizActivity"
@@ -33,10 +43,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.android.lifehack.MainActivity" />
         </activity>
-        <activity
-            android:name=".NameActivity"
-            android:label="@string/title_activity_name" >
-        </activity>
+
     </application>
 
 </manifest>

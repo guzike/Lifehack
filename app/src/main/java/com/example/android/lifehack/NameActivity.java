@@ -1,9 +1,11 @@
 package com.example.android.lifehack;
 
-import android.support.v7.app.AppCompatActivity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 public class NameActivity extends AppCompatActivity {
 
@@ -33,5 +35,10 @@ public class NameActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void sbContToMain(View view){
+        Intent toMain = new Intent(this, MainActivity.class);
+        startActivity(toMain);
     }
 }

@@ -4,7 +4,10 @@
 
     <string name="hello_world">Hello World!</string>
     <string name="action_settings">Settings</string>
+
     <string name="title_activity_quiz">Quiz</string>
+    <string name="title_activity_splash">Welcome to Lifehack</string>
+    <string name="title_activity_name">Welcome to Lifehack</string>
 
     <string name="title_drink">How to cool your drink</string>
     <string name="title_text1">Wrap in a wet towel...</string>
@@ -17,8 +20,11 @@
     <string name="text3">You will need a deep container, water, ice, and salt. Add  the same amount of ice in the water, handful of the salt and put a drink bottle inside. Gently mix. Bottle will cool down for two minutes, and your friends will be impressed by this trick.</string>
     <string name="text4">There is an alternative to ice bath at the forest. This is a small pit near a pond. You need to wrap a drink in a cloth or bag, wet it and dig it into the ground. Not so fast, but holds a cold longer :)</string>
     <string name="text5">Do you see extinguisher? You should blow on your drink - the bottle will be icy in two minutes, and then you wash the floor, walls, bottle. You will have problems with management and firefighters... But we are having fun :)</string>
+
     <string name="sb_cont_to_quiz">Continue to quiz</string>
-    <string name="title_activity_splash">Welcome to Lifehack</string>
-    <string name="title_activity_name">NameActivity</string>
+    <string name="sb_cont_to_main">Continue</string>
+
+    <string name="name_hint">Enter your name</string>
+
 
 </resources>
