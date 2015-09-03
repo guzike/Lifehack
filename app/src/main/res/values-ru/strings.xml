@@ -46,5 +46,6 @@
 
     <string name="congrat">Поздравляем!</string>
     <string name="congrat_name">"Поздравляем, "</string>
+    <string name="your_score">"Ваш счёт: "</string>
 
 </resources>

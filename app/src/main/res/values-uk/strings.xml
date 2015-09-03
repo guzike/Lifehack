@@ -46,4 +46,5 @@
 
     <string name="congrat">Вітаємо!</string>
     <string name="congrat_name">"Вітаємо, "</string>
+    <string name="your_score">"Ваш рахунок: "</string>
 </resources>

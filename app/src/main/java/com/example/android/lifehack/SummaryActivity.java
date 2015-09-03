@@ -75,7 +75,7 @@ public class SummaryActivity extends AppCompatActivity {
             score++;
         }
 
-        String summary = "Your score is: " + score + "/3";
+        String summary = getString(R.string.your_score) + score + "/3";
 
         if(name != null){
             if(name.length() > 0){
