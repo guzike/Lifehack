@@ -40,6 +40,8 @@ public class SummaryActivity extends AppCompatActivity {
 
     public void createSummary(){
 
+        int score = 0;
+
         Intent intent = getIntent();
 
         Bundle extras = intent.getExtras();
@@ -54,9 +56,30 @@ public class SummaryActivity extends AppCompatActivity {
         boolean radio_ans1 = extras.getBoolean("radio_ans1");
         boolean radio_ans2 = extras.getBoolean("radio_ans2");
 
-        String summary = name + "\n" + ansText + "\n" + check_ans1 + "\n" + check_ans2 + "\n" + check_ans3 + "\n" +radio_ans1 + "\n" +radio_ans2;
+        //right answer logic
 
-        //my logic and message
+        if(ansText!=null) {
+            if (ansText.toLowerCase().contains("times")) {
+                score++;
+            }
+        }
+
+        if(check_ans1 && !check_ans2 && check_ans3){
+            score++;
+        }
+
+        if(radio_ans1 && !radio_ans2){
+            score++;
+        }
+
+        String summary = "Your score is: " + score + "/3";
+
+        if(name != null){
+            if(name.length() > 0){
+                TextView congratText = (TextView) findViewById(R.id.congrat_text);
+                congratText.setText(getString(R.string.congrat_name) + name + "!");
+            }
+        }
 
         TextView summaryText = (TextView) findViewById(R.id.summary_text);
         summaryText.setText(String.valueOf(summary));

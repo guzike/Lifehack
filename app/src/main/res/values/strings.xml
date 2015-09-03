@@ -43,4 +43,8 @@
     <string name="radio_quest2">No</string>
 
     <string name="quest1_hint">Your answer</string>
+
+    <string name="congrat">Congratulations!</string>
+    <string name="congrat_name">"Congratulations, "</string>
+
 </resources>

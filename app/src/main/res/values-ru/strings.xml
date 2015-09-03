@@ -44,4 +44,7 @@
 
     <string name="quest1_hint">Ваш ответ</string>
 
+    <string name="congrat">Поздравляем!</string>
+    <string name="congrat_name">"Поздравляем, "</string>
+
 </resources>

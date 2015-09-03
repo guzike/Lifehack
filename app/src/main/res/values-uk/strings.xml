@@ -43,4 +43,7 @@
     <string name="radio_quest2">Ні</string>
 
     <string name="quest1_hint">Ваша відповідь</string>
+
+    <string name="congrat">Вітаємо!</string>
+    <string name="congrat_name">"Вітаємо, "</string>
 </resources>
