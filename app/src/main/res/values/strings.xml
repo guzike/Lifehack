@@ -31,16 +31,16 @@
     <string name="title_quest2">Question №2</string>
     <string name="title_quest3">Question №3</string>
 
-    <string name="quest1">Question text</string>
-    <string name="quest2">Question text</string>
-    <string name="quest3">Question text</string>
+    <string name="quest1">What is the name of the newspaper, in which the bottle was wrapped?</string>
+    <string name="quest2">What are the ingredients used for the cooling method \"To impress your friends...\"?</string>
+    <string name="quest3">Will you have a problem, if you use the last method of cooling?</string>
 
-    <string name="check_quest1">Question text</string>
-    <string name="check_quest2">Question text</string>
-    <string name="check_quest3">Question text</string>
+    <string name="check_quest1">Salt</string>
+    <string name="check_quest2">Pepper</string>
+    <string name="check_quest3">Ice</string>
 
-    <string name="radio_quest1">Question text</string>
-    <string name="radio_quest2">Question text</string>
+    <string name="radio_quest1">Yes</string>
+    <string name="radio_quest2">No</string>
 
     <string name="quest1_hint">Your answer</string>
 </resources>
