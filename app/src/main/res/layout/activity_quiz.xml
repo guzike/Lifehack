@@ -1,5 +1,4 @@
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -14,12 +13,12 @@
         tools:context="com.example.android.lifehack.Main2Activity">
 
         <TextView
-            android:text="@string/title_quest1"
-            style="@style/QuizTitleTextStyle"/>
+            style="@style/QuizTitleTextStyle"
+            android:text="@string/title_quest1" />
 
         <TextView
-            android:text="@string/quest1"
-            style="@style/QuizTextStyle"/>
+            style="@style/QuizTextStyle"
+            android:text="@string/quest1" />
 
         <EditText
             android:id="@+id/answer1_view"
@@ -33,12 +32,12 @@
         <View style="@style/LineSepStyle" />
 
         <TextView
-            android:text="@string/title_quest2"
-            style="@style/QuizTitleTextStyle"/>
+            style="@style/QuizTitleTextStyle"
+            android:text="@string/title_quest2" />
 
         <TextView
-            android:text="@string/quest2"
-            style="@style/QuizTextStyle"/>
+            style="@style/QuizTextStyle"
+            android:text="@string/quest2" />
 
         <CheckBox
             android:id="@+id/check_ans1"
@@ -73,12 +72,12 @@
         <View style="@style/LineSepStyle" />
 
         <TextView
-            android:text="@string/title_quest3"
-            style="@style/QuizTitleTextStyle"/>
+            style="@style/QuizTitleTextStyle"
+            android:text="@string/title_quest3" />
 
         <TextView
-            android:text="@string/quest3"
-            style="@style/QuizTextStyle"/>
+            style="@style/QuizTextStyle"
+            android:text="@string/quest3" />
 
         <RadioGroup
             android:layout_width="wrap_content"
@@ -104,12 +103,10 @@
         <View style="@style/LineSepStyle" />
 
         <Button
-            android:layout_marginBottom="36dp"
-            android:layout_marginTop="36dp"
+            style="@style/ButtonStyle"
             android:onClick="sbContToSum"
-            android:text="@string/sb_continue"
+            android:text="@string/sb_continue" />
 
-            style="@style/Widget.AppCompat.Button.ButtonStyle"/>
 
     </LinearLayout>
 </ScrollView>

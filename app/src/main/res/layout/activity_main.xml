@@ -155,13 +155,9 @@
         </RelativeLayout>
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginBottom="36dp"
+            style="@style/ButtonStyle"
             android:onClick="sbContToQuiz"
-            android:text="@string/sb_cont_to_quiz"
-            android:textColor="#FFFFFF" />
+            android:text="@string/sb_cont_to_quiz" />
 
     </LinearLayout>
 </ScrollView>
