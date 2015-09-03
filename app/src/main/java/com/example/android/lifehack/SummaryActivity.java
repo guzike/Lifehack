@@ -1,7 +1,7 @@
 package com.example.android.lifehack;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 
@@ -11,6 +11,7 @@ public class SummaryActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_summary);
+        createSummary();
     }
 
     @Override
@@ -33,5 +34,28 @@ public class SummaryActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void createSummary(){
+
+
+
+        //CheckBox checkBox1 = (CheckBox) findViewById(R.id.check_ans1);
+        //boolean check_ans1 = checkBox1.isChecked();
+
+        //CheckBox checkBox2 = (CheckBox) findViewById(R.id.check_ans2);
+        //boolean check_ans2 = checkBox2.isChecked();
+
+        //CheckBox checkBox3 = (CheckBox) findViewById(R.id.check_ans3);
+        //boolean check_ans3 = checkBox3.isChecked();
+
+        //RadioButton radioButton1 = (RadioButton) findViewById(R.id.yes_radio_button);
+        //boolean radio_ans1 = radioButton1.isChecked();
+
+        //RadioButton radioButton2 = (RadioButton) findViewById(R.id.no_radio_button);
+        //boolean radio_ans2 = radioButton2.isChecked();
+
+        //TextView summaryText = (TextView) findViewById(R.id.summary_text);
+        //summaryText.setText(name);
     }
 }

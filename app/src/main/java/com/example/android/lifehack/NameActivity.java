@@ -3,9 +3,11 @@ package com.example.android.lifehack;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.text.Editable;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.EditText;
 
 public class NameActivity extends AppCompatActivity {
 
@@ -40,5 +42,17 @@ public class NameActivity extends AppCompatActivity {
     public void sbContToMain(View view){
         Intent toMain = new Intent(this, MainActivity.class);
         startActivity(toMain);
+    }
+
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putCharSequence("name",getName());
+    }
+
+    public String getName(){
+        EditText nameField = (EditText) findViewById(R.id.name_view);
+        Editable nameText = nameField.getText();
+        return nameText.toString();
     }
 }

@@ -10,6 +10,7 @@
     tools:context="com.example.android.lifehack.SummaryActivity">
 
     <TextView
+        android:id="@+id/summary_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Summary" />
