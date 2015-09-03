@@ -27,7 +27,8 @@
             android:layout_marginLeft="80dp"
             android:layout_marginRight="80dp"
             android:hint="Answer"
-            android:inputType="textMultiLine" />
+            android:inputType="textMultiLine"
+            android:textSize="16sp" />
 
         <View style="@style/LineSepStyle" />
 
@@ -41,33 +42,18 @@
 
         <CheckBox
             android:id="@+id/check_ans1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginBottom="8dp"
-            android:paddingLeft="16dp"
-            android:text="check_ans1"
-            android:textAppearance="?android:textAppearanceMedium" />
+            style="@style/CheckboxStyle"
+            android:text="check_ans1" />
 
         <CheckBox
             android:id="@+id/check_ans2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginBottom="8dp"
-            android:paddingLeft="16dp"
-            android:text="check_ans2"
-            android:textAppearance="?android:textAppearanceMedium" />
+            style="@style/CheckboxStyle"
+            android:text="check_ans2" />
 
         <CheckBox
             android:id="@+id/check_ans3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginBottom="8dp"
-            android:paddingLeft="16dp"
-            android:text="check_ans3"
-            android:textAppearance="?android:textAppearanceMedium" />
+            style="@style/CheckboxStyle"
+            android:text="check_ans3" />
 
         <View style="@style/LineSepStyle" />
 
@@ -89,15 +75,17 @@
                 android:id="@+id/yes_radio_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
                 android:text="yes"
-                android:textAppearance="?android:textAppearanceMedium" />
+                android:textSize="16sp" />
 
             <RadioButton
                 android:id="@+id/no_radio_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:paddingLeft="8dp"
                 android:text="no"
-                android:textAppearance="?android:textAppearanceMedium" />
+                android:textSize="16sp" />
         </RadioGroup>
 
         <View style="@style/LineSepStyle" />
