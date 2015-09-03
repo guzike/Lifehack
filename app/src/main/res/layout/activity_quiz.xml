@@ -73,19 +73,13 @@
 
             <RadioButton
                 android:id="@+id/yes_radio_button"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingLeft="8dp"
-                android:text="yes"
-                android:textSize="16sp" />
+                style="@style/RadioStyle"
+                android:text="yes" />
 
             <RadioButton
                 android:id="@+id/no_radio_button"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingLeft="8dp"
-                android:text="no"
-                android:textSize="16sp" />
+                style="@style/RadioStyle"
+                android:text="no" />
         </RadioGroup>
 
         <View style="@style/LineSepStyle" />
