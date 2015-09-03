@@ -40,20 +40,27 @@
             style="@style/QuizTextStyle"
             android:text="@string/quest2" />
 
-        <CheckBox
-            android:id="@+id/check_ans1"
-            style="@style/CheckboxStyle"
-            android:text="@string/check_quest1" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
 
-        <CheckBox
-            android:id="@+id/check_ans2"
-            style="@style/CheckboxStyle"
-            android:text="@string/check_quest2" />
+            <CheckBox
+                android:id="@+id/check_ans1"
+                style="@style/CheckboxStyle"
+                android:text="@string/check_quest1" />
 
-        <CheckBox
-            android:id="@+id/check_ans3"
-            style="@style/CheckboxStyle"
-            android:text="@string/check_quest3" />
+            <CheckBox
+                android:id="@+id/check_ans2"
+                style="@style/CheckboxStyle"
+                android:text="@string/check_quest2" />
+
+            <CheckBox
+                android:id="@+id/check_ans3"
+                style="@style/CheckboxStyle"
+                android:text="@string/check_quest3" />
+        </LinearLayout>
 
         <View style="@style/LineSepStyle" />
 

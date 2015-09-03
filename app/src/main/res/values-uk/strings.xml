@@ -31,16 +31,16 @@
     <string name="title_quest2">Питання №2</string>
     <string name="title_quest3">Питання №3</string>
 
-    <string name="quest1">текст текст</string>
-    <string name="quest2">текст текст</string>
-    <string name="quest3">текст текст</string>
+    <string name="quest1">Яка назва газети, у яку була загорнута пляшка?</string>
+    <string name="quest2">Які інгредієнти використовувались для методу охолодження \"Щоб здивувати друзів...\"?</string>
+    <string name="quest3">Чи будете Ви мати проблеми, якщо використаєте останній метод охолодження?</string>
 
-    <string name="check_quest1">Question text</string>
-    <string name="check_quest2">Question text</string>
-    <string name="check_quest3">Question text</string>
+    <string name="check_quest1">Сіль</string>
+    <string name="check_quest2">Перець</string>
+    <string name="check_quest3">Лід</string>
 
-    <string name="radio_quest1">Question text</string>
-    <string name="radio_quest2">Question text</string>
+    <string name="radio_quest1">Так</string>
+    <string name="radio_quest2">Ні</string>
 
-    <string name="quest1_hint">Your answer</string>
+    <string name="quest1_hint">Ваша відповідь</string>
 </resources>
