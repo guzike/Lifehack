@@ -40,8 +40,15 @@ public class NameActivity extends AppCompatActivity {
     }
 
     public void sbContToMain(View view){
-        Intent toMain = new Intent(this, MainActivity.class);
-        startActivity(toMain);
+
+        Intent intent = new Intent(this, MainActivity.class);
+
+        Bundle bundle = new Bundle();
+        bundle.putString("name", getName());
+
+        intent.putExtras(bundle);
+
+        startActivity(intent);
     }
 
     @Override

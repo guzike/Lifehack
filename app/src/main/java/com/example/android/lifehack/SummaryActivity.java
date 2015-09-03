@@ -1,9 +1,11 @@
 package com.example.android.lifehack;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 
 public class SummaryActivity extends AppCompatActivity {
 
@@ -38,24 +40,25 @@ public class SummaryActivity extends AppCompatActivity {
 
     public void createSummary(){
 
+        Intent intent = getIntent();
 
+        Bundle extras = intent.getExtras();
 
-        //CheckBox checkBox1 = (CheckBox) findViewById(R.id.check_ans1);
-        //boolean check_ans1 = checkBox1.isChecked();
+        String name = extras.getString("name");
+        String ansText = extras.getString("ansText");
 
-        //CheckBox checkBox2 = (CheckBox) findViewById(R.id.check_ans2);
-        //boolean check_ans2 = checkBox2.isChecked();
+        boolean check_ans1 = extras.getBoolean("check_ans1");
+        boolean check_ans2 = extras.getBoolean("check_ans2");
+        boolean check_ans3 = extras.getBoolean("check_ans3");
 
-        //CheckBox checkBox3 = (CheckBox) findViewById(R.id.check_ans3);
-        //boolean check_ans3 = checkBox3.isChecked();
+        boolean radio_ans1 = extras.getBoolean("radio_ans1");
+        boolean radio_ans2 = extras.getBoolean("radio_ans2");
 
-        //RadioButton radioButton1 = (RadioButton) findViewById(R.id.yes_radio_button);
-        //boolean radio_ans1 = radioButton1.isChecked();
+        String summary = name + "\n" + ansText + "\n" + check_ans1 + "\n" + check_ans2 + "\n" + check_ans3 + "\n" +radio_ans1 + "\n" +radio_ans2;
 
-        //RadioButton radioButton2 = (RadioButton) findViewById(R.id.no_radio_button);
-        //boolean radio_ans2 = radioButton2.isChecked();
+        //my logic and message
 
-        //TextView summaryText = (TextView) findViewById(R.id.summary_text);
-        //summaryText.setText(name);
+        TextView summaryText = (TextView) findViewById(R.id.summary_text);
+        summaryText.setText(String.valueOf(summary));
     }
 }

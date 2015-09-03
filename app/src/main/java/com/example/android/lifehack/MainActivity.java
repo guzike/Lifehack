@@ -38,7 +38,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void sbContToQuiz(View view){
+
         Intent toQuiz = new Intent(this, QuizActivity.class);
+        toQuiz.putExtras(getIntent().getExtras());
         startActivity(toQuiz);
     }
 }
