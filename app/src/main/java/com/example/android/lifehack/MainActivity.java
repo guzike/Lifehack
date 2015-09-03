@@ -37,6 +37,10 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    /**
+     * This method gets bundle from the previous activity and changes to the next activity
+     * @param view object
+     */
     public void sbContToQuiz(View view){
 
         Intent toQuiz = new Intent(this, QuizActivity.class);

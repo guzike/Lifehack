@@ -39,6 +39,10 @@ public class NameActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    /**
+     * This method saves name entered and changes the activity.
+     * @param view object
+     */
     public void sbContToMain(View view){
 
         Intent intent = new Intent(this, MainActivity.class);
@@ -57,6 +61,10 @@ public class NameActivity extends AppCompatActivity {
         outState.putCharSequence("name",getName());
     }
 
+    /**
+     * This method gets the name that is entered to the EditText with id = name_view
+     * @return String name entered
+     */
     public String getName(){
         EditText nameField = (EditText) findViewById(R.id.name_view);
         Editable nameText = nameField.getText();

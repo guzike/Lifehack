@@ -38,6 +38,9 @@ public class SummaryActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    /**
+     * This method get bundle from the previous activity, calculates quantity of the right answers and displays congratulation message with score
+     */
     public void createSummary(){
 
         int score = 0;

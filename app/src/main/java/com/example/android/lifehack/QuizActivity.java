@@ -40,6 +40,10 @@ public class QuizActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    /**
+     * This method gets bundle from the previous activity, saves information entered in this QuizActivity and changes to the next activity
+     * @param view object
+     */
     public void sbContToSum(View view){
 
         CheckBox checkBox1 = (CheckBox) findViewById(R.id.check_ans1);
