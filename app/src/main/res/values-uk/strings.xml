@@ -35,4 +35,12 @@
     <string name="quest2">текст текст</string>
     <string name="quest3">текст текст</string>
 
+    <string name="check_quest1">Question text</string>
+    <string name="check_quest2">Question text</string>
+    <string name="check_quest3">Question text</string>
+
+    <string name="radio_quest1">Question text</string>
+    <string name="radio_quest2">Question text</string>
+
+    <string name="quest1_hint">Your answer</string>
 </resources>

@@ -4,7 +4,7 @@
 
     <LinearLayout xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
         android:paddingBottom="@dimen/activity_vertical_margin"
         android:paddingLeft="@dimen/activity_horizontal_margin"
@@ -26,7 +26,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="80dp"
             android:layout_marginRight="80dp"
-            android:hint="Answer"
+            android:hint="@string/quest1_hint"
             android:inputType="textMultiLine"
             android:textSize="16sp" />
 
@@ -43,17 +43,17 @@
         <CheckBox
             android:id="@+id/check_ans1"
             style="@style/CheckboxStyle"
-            android:text="check_ans1" />
+            android:text="@string/check_quest1" />
 
         <CheckBox
             android:id="@+id/check_ans2"
             style="@style/CheckboxStyle"
-            android:text="check_ans2" />
+            android:text="@string/check_quest2" />
 
         <CheckBox
             android:id="@+id/check_ans3"
             style="@style/CheckboxStyle"
-            android:text="check_ans3" />
+            android:text="@string/check_quest3" />
 
         <View style="@style/LineSepStyle" />
 
@@ -74,12 +74,12 @@
             <RadioButton
                 android:id="@+id/yes_radio_button"
                 style="@style/RadioStyle"
-                android:text="yes" />
+                android:text="@string/radio_quest1" />
 
             <RadioButton
                 android:id="@+id/no_radio_button"
                 style="@style/RadioStyle"
-                android:text="no" />
+                android:text="@string/radio_quest2" />
         </RadioGroup>
 
         <View style="@style/LineSepStyle" />
