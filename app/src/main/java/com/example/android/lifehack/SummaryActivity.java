@@ -42,24 +42,27 @@ public class SummaryActivity extends AppCompatActivity {
         boolean radio_ans1 = extras.getBoolean(QuizActivity.EXTRA_ANS_RADIO1);
         boolean radio_ans2 = extras.getBoolean(QuizActivity.EXTRA_ANS_RADIO2);
 
-        if(ansText!=null) {
+        if (ansText!=null) {
             if (ansText.toLowerCase().contains("times")) {
-                score++;
+                score += 2;
             }
         }
 
-        if(check_ans1 && !check_ans2 && check_ans3){
+        if (check_ans1 && !check_ans2 && check_ans3) {
+            score += 2;
+        } else if ((check_ans1 && !check_ans2 && !check_ans3) ||
+                   (!check_ans1 && !check_ans2 && check_ans3)) {
             score++;
         }
 
-        if(radio_ans1 && !radio_ans2){
+        if (radio_ans1 && !radio_ans2) {
             score++;
         }
 
-        String summary = getString(R.string.your_score) + score + "/3";
+        String summary = getString(R.string.your_score) + score + "/5";
 
-        if(name != null){
-            if(name.length() > 0){
+        if (name != null) {
+            if (name.length() > 0) {
                 mCongratText.setText(getString(R.string.congrat_name) + name + "!");
             }
         }
