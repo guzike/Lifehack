@@ -7,34 +7,23 @@ import android.widget.TextView;
 
 public class SummaryActivity extends AppCompatActivity {
 
+    public final static String EXTRA_NAME = "name";
+    public final static String EXTRA_ANS_TEXT = "ansText";
+    public final static String EXTRA_ANS_CHECK1 = "ans_check1";
+    public final static String EXTRA_ANS_CHECK2 = "ans_check2";
+    public final static String EXTRA_ANS_CHECK3 = "ans_check3";
+    public final static String EXTRA_ANS_RADIO1 = "ans_radio1";
+    public final static String EXTRA_ANS_RADIO2 = "ans_radio2";
+
+    TextView congratText = (TextView) findViewById(R.id.congrat_text);
+    TextView summaryText = (TextView) findViewById(R.id.summary_text);
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_summary);
         createSummary();
     }
-
-//    @Override
-//    public boolean onCreateOptionsMenu(Menu menu) {
-//        // Inflate the menu; this adds items to the action bar if it is present.
-//        getMenuInflater().inflate(R.menu.menu_summary, menu);
-//        return true;
-//    }
-//
-//    @Override
-//    public boolean onOptionsItemSelected(MenuItem item) {
-//        // Handle action bar item clicks here. The action bar will
-//        // automatically handle clicks on the Home/Up button, so long
-//        // as you specify a parent activity in AndroidManifest.xml.
-//        int id = item.getItemId();
-//
-//        //noinspection SimplifiableIfStatement
-//        if (id == R.id.action_settings) {
-//            return true;
-//        }
-//
-//        return super.onOptionsItemSelected(item);
-//    }
 
     /**
      * This method get bundle from the previous activity, calculates quantity of the right answers and displays congratulation message with score
@@ -47,17 +36,15 @@ public class SummaryActivity extends AppCompatActivity {
 
         Bundle extras = intent.getExtras();
 
-        String name = extras.getString("name");
-        String ansText = extras.getString("ansText");
+        String name = extras.getString(EXTRA_NAME);
+        String ansText = extras.getString(EXTRA_ANS_TEXT);
 
-        boolean check_ans1 = extras.getBoolean("check_ans1");
-        boolean check_ans2 = extras.getBoolean("check_ans2");
-        boolean check_ans3 = extras.getBoolean("check_ans3");
+        boolean check_ans1 = extras.getBoolean(EXTRA_ANS_CHECK1);
+        boolean check_ans2 = extras.getBoolean(EXTRA_ANS_CHECK2);
+        boolean check_ans3 = extras.getBoolean(EXTRA_ANS_CHECK3);
 
-        boolean radio_ans1 = extras.getBoolean("radio_ans1");
-        boolean radio_ans2 = extras.getBoolean("radio_ans2");
-
-        //right answer logic
+        boolean radio_ans1 = extras.getBoolean(EXTRA_ANS_RADIO1);
+        boolean radio_ans2 = extras.getBoolean(EXTRA_ANS_RADIO2);
 
         if(ansText!=null) {
             if (ansText.toLowerCase().contains("times")) {
@@ -77,12 +64,10 @@ public class SummaryActivity extends AppCompatActivity {
 
         if(name != null){
             if(name.length() > 0){
-                TextView congratText = (TextView) findViewById(R.id.congrat_text);
                 congratText.setText(getString(R.string.congrat_name) + name + "!");
             }
         }
 
-        TextView summaryText = (TextView) findViewById(R.id.summary_text);
         summaryText.setText(String.valueOf(summary));
     }
 }
