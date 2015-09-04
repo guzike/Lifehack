@@ -14,7 +14,6 @@ public class SplashActivity extends AppCompatActivity {
         super.onCreate(icicle);
         setContentView(R.layout.activity_splash);
 
-
         //New Handler to start the NameActivity
         //and close this Splash-Screen after some seconds.
         new Handler().postDelayed(new Runnable() {
@@ -22,8 +21,8 @@ public class SplashActivity extends AppCompatActivity {
             public void run() {
                 //Create an Intent that will start the NameActivity.
                 Intent mainIntent = new Intent(SplashActivity.this, NameActivity.class);
-                SplashActivity.this.startActivity(mainIntent);
-                SplashActivity.this.finish();
+                startActivity(mainIntent);
+                finish();
             }
         }, SPLASH_DISPLAY_LENGTH);
     }
