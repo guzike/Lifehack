@@ -5,10 +5,11 @@
     <string name="hello_world">Привет Мир!</string>
     <string name="action_settings">Настройки</string>
 
-    <string name="title_activity_quiz">Викторина</string>
     <string name="title_activity_splash">Lifehack</string>
-    <string name="title_activity_name">Lifehack</string>
-    <string name="title_activity_summary">Резюме</string>
+    <string name="title_activity_name">Добро пожаловать в Lifehack</string>
+    <string name="title_activity_main">Lifehack Информация</string>
+    <string name="title_activity_quiz">Lifehack Викторина</string>
+    <string name="title_activity_summary">Lifehack Резюме</string>
 
     <string name="title_drink">Как охладить напиток</string>
     <string name="title_text1">Заверни во влажное полотенце...</string>

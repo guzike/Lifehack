@@ -43,8 +43,8 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_gravity="center">
+            android:layout_gravity="center"
+            android:orientation="vertical">
 
             <CheckBox
                 android:id="@+id/check_ans1"
@@ -95,7 +95,6 @@
             style="@style/ButtonStyle"
             android:onClick="sbContToSum"
             android:text="@string/sb_continue" />
-
 
     </LinearLayout>
 </ScrollView>
