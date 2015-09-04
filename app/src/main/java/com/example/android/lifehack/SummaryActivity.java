@@ -7,14 +7,6 @@ import android.widget.TextView;
 
 public class SummaryActivity extends AppCompatActivity {
 
-    public final static String EXTRA_NAME = "name";
-    public final static String EXTRA_ANS_TEXT = "ansText";
-    public final static String EXTRA_ANS_CHECK1 = "ans_check1";
-    public final static String EXTRA_ANS_CHECK2 = "ans_check2";
-    public final static String EXTRA_ANS_CHECK3 = "ans_check3";
-    public final static String EXTRA_ANS_RADIO1 = "ans_radio1";
-    public final static String EXTRA_ANS_RADIO2 = "ans_radio2";
-
     TextView congratText = (TextView) findViewById(R.id.congrat_text);
     TextView summaryText = (TextView) findViewById(R.id.summary_text);
 
@@ -36,15 +28,15 @@ public class SummaryActivity extends AppCompatActivity {
 
         Bundle extras = intent.getExtras();
 
-        String name = extras.getString(EXTRA_NAME);
-        String ansText = extras.getString(EXTRA_ANS_TEXT);
+        String name = extras.getString(NameActivity.EXTRA_NAME);
+        String ansText = extras.getString(QuizActivity.EXTRA_ANS_TEXT);
 
-        boolean check_ans1 = extras.getBoolean(EXTRA_ANS_CHECK1);
-        boolean check_ans2 = extras.getBoolean(EXTRA_ANS_CHECK2);
-        boolean check_ans3 = extras.getBoolean(EXTRA_ANS_CHECK3);
+        boolean check_ans1 = extras.getBoolean(QuizActivity.EXTRA_ANS_CHECK1);
+        boolean check_ans2 = extras.getBoolean(QuizActivity.EXTRA_ANS_CHECK2);
+        boolean check_ans3 = extras.getBoolean(QuizActivity.EXTRA_ANS_CHECK3);
 
-        boolean radio_ans1 = extras.getBoolean(EXTRA_ANS_RADIO1);
-        boolean radio_ans2 = extras.getBoolean(EXTRA_ANS_RADIO2);
+        boolean radio_ans1 = extras.getBoolean(QuizActivity.EXTRA_ANS_RADIO1);
+        boolean radio_ans2 = extras.getBoolean(QuizActivity.EXTRA_ANS_RADIO2);
 
         if(ansText!=null) {
             if (ansText.toLowerCase().contains("times")) {
