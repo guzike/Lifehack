@@ -50,8 +50,8 @@ public class SummaryActivity extends AppCompatActivity {
 
         if (check_ans1 && !check_ans2 && check_ans3) {
             score += 2;
-        } else if ((check_ans1 && !check_ans2 && !check_ans3) ||
-                   (!check_ans1 && !check_ans2 && check_ans3)) {
+        } else if ((check_ans1 && !check_ans2) ||
+                   (!check_ans2 && check_ans3)) {
             score++;
         }
 
