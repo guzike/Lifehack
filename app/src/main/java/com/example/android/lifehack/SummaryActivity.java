@@ -7,13 +7,17 @@ import android.widget.TextView;
 
 public class SummaryActivity extends AppCompatActivity {
 
-    TextView congratText = (TextView) findViewById(R.id.congrat_text);
-    TextView summaryText = (TextView) findViewById(R.id.summary_text);
+    TextView mCongratText;
+    TextView mSummaryText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_summary);
+
+        mCongratText = (TextView) findViewById(R.id.congrat_text);
+        mSummaryText = (TextView) findViewById(R.id.summary_text);
+
         createSummary();
     }
 
@@ -56,10 +60,10 @@ public class SummaryActivity extends AppCompatActivity {
 
         if(name != null){
             if(name.length() > 0){
-                congratText.setText(getString(R.string.congrat_name) + name + "!");
+                mCongratText.setText(getString(R.string.congrat_name) + name + "!");
             }
         }
 
-        summaryText.setText(String.valueOf(summary));
+        mSummaryText.setText(String.valueOf(summary));
     }
 }

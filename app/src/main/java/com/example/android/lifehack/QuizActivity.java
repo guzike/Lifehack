@@ -17,28 +17,28 @@ public class QuizActivity extends AppCompatActivity {
     public final static String EXTRA_ANS_RADIO1 = "ans_radio1";
     public final static String EXTRA_ANS_RADIO2 = "ans_radio2";
 
-    CheckBox checkBox1 = (CheckBox) findViewById(R.id.check_ans1);
-    boolean check_ans1 = checkBox1.isChecked();
+    private CheckBox mCheckBox1;
+    private CheckBox mCheckBox2;
+    private CheckBox mCheckBox3;
 
-    CheckBox checkBox2 = (CheckBox) findViewById(R.id.check_ans2);
-    boolean check_ans2 = checkBox2.isChecked();
+    private RadioButton mRadioButton1;
+    private RadioButton mRadioButton2;
 
-    CheckBox checkBox3 = (CheckBox) findViewById(R.id.check_ans3);
-    boolean check_ans3 = checkBox3.isChecked();
-
-    RadioButton radioButton1 = (RadioButton) findViewById(R.id.yes_radio_button);
-    boolean radio_ans1 = radioButton1.isChecked();
-
-    RadioButton radioButton2 = (RadioButton) findViewById(R.id.no_radio_button);
-    boolean radio_ans2 = radioButton2.isChecked();
-
-    EditText textField = (EditText) findViewById(R.id.answer1_view);
-    String ansText = textField.getText().toString();
+    EditText mTextField;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz);
+
+        mCheckBox1 = (CheckBox) findViewById(R.id.check_ans1);
+        mCheckBox2 = (CheckBox) findViewById(R.id.check_ans2);
+        mCheckBox3 = (CheckBox) findViewById(R.id.check_ans3);
+
+        mRadioButton1 = (RadioButton) findViewById(R.id.yes_radio_button);
+        mRadioButton2 = (RadioButton) findViewById(R.id.no_radio_button);
+
+        mTextField = (EditText) findViewById(R.id.answer1_view);
     }
 
     /**
@@ -46,6 +46,15 @@ public class QuizActivity extends AppCompatActivity {
      * @param view the button clicked by the user
      */
     public void sbContToSum(View view){
+
+        boolean check_ans1 =mCheckBox1.isChecked();
+        boolean check_ans2 = mCheckBox2.isChecked();
+        boolean check_ans3 = mCheckBox3.isChecked();
+
+        boolean radio_ans1 = mRadioButton1.isChecked();
+        boolean radio_ans2 = mRadioButton2.isChecked();
+
+        String ansText = mTextField.getText().toString();
 
         Intent toSum = new Intent(this, SummaryActivity.class);
         Bundle extras = getIntent().getExtras();
