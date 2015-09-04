@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      * This method gets bundle from the previous activity and changes to the next activity
-     * @param view object
+     * @param view the button clicked by the user
      */
     public void sbContToQuiz(View view){
 

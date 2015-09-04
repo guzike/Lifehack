@@ -43,7 +43,7 @@ public class QuizActivity extends AppCompatActivity {
 
     /**
      * This method gets bundle from the previous activity, saves information entered in this QuizActivity and changes to the next activity
-     * @param view object
+     * @param view the button clicked by the user
      */
     public void sbContToSum(View view){
 

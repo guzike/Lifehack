@@ -19,7 +19,7 @@ public class NameActivity extends AppCompatActivity {
 
     /**
      * This method saves name entered and changes the activity.
-     * @param view object
+     * @param view the button clicked by the user
      */
     public void sbContToMain(View view){
 
