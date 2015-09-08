@@ -11,7 +11,8 @@
 
         <activity
             android:name=".SplashActivity"
-            android:label="@string/app_name">
+            android:label="@string/app_name"
+            android:launchMode="singleTop">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -21,21 +22,25 @@
 
         <activity
             android:name=".NameActivity"
-            android:label="@string/title_activity_name">
+            android:label="@string/title_activity_name"
+            android:launchMode="singleTop">
+
         </activity>
 
         <activity
             android:name=".MainActivity"
             android:label="@string/title_activity_main"
-            android:parentActivityName=".SplashActivity">
+            android:launchMode="singleTop"
+            android:parentActivityName=".NameActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.android.lifehack.SplashActivity" />
+                android:value="com.example.android.lifehack.NameActivity" />
         </activity>
 
         <activity
             android:name=".QuizActivity"
             android:label="@string/title_activity_quiz"
+            android:launchMode="singleTop"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -45,6 +50,7 @@
         <activity
             android:name=".SummaryActivity"
             android:label="@string/title_activity_summary"
+            android:launchMode="singleTop"
             android:parentActivityName=".QuizActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"

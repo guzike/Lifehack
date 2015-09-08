@@ -46,6 +46,6 @@
     <string name="quest1_hint">Ваша відповідь</string>
 
     <string name="congrat">Вітаємо!</string>
-    <string name="congrat_name">"Вітаємо, "</string>
-    <string name="your_score">"Ваш рахунок: "</string>
+    <string name="congrat_name">"Вітаємо, %s!"</string>
+    <string name="your_score">"Ваш рахунок: %d/5"</string>
 </resources>

@@ -47,7 +47,7 @@ public class QuizActivity extends AppCompatActivity {
      */
     public void sbContToSum(View view){
 
-        boolean check_ans1 =mCheckBox1.isChecked();
+        boolean check_ans1 = mCheckBox1.isChecked();
         boolean check_ans2 = mCheckBox2.isChecked();
         boolean check_ans3 = mCheckBox3.isChecked();
 

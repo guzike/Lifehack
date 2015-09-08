@@ -36,12 +36,6 @@ public class NameActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    @Override
-    protected void onSaveInstanceState(Bundle outState) {
-        super.onSaveInstanceState(outState);
-        outState.putCharSequence(EXTRA_NAME,getName());
-    }
-
     /**
      * This method gets the name that is entered to the EditText with id = name_view
      * @return String name entered

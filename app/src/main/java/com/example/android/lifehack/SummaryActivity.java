@@ -59,11 +59,11 @@ public class SummaryActivity extends AppCompatActivity {
             score++;
         }
 
-        String summary = getString(R.string.your_score) + score + "/5";
+        String summary = getString(R.string.your_score, score);
 
         if (name != null) {
             if (name.length() > 0) {
-                mCongratText.setText(getString(R.string.congrat_name) + name + "!");
+                mCongratText.setText(getString(R.string.congrat_name,name));
             }
         }
 
