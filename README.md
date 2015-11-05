@@ -15,8 +15,11 @@ Thank you for attention! Happy coding to everybody! :)
 
 ##USER INSTRUCTIONS
 After the game starts first you see a splash screen, that changes to a next page in 2 seconds, where you should enter your name.
+
 Then click "Continue" button. After this you will see a page with information to read.
+
 Then click "Continue to Quiz" button. After this you will see a page with quiz questions, you should enter your answers for these questions.
+
 Then click "Continue" button. After this you will see a page with summary for your quiz.
 
 Thank you for using the app!
