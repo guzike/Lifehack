@@ -2,8 +2,11 @@ VERSION OF ANDROID STUDIO: 1.3.2
 JRE: 1.8.0_45-b14 amd64
 
 PROJECT TITLE: Lifehack
+
 PURPOSE OF PROJECT: Lifehack 5 ways to cool your drink
+
 VERSION or DATE: 04.09.2015
+
 AUTHOR: Eugene Guzik
 
 USER INSTRUCTIONS:
